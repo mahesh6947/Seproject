@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#map-canvas{
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+#storeList{
+  padding:0.4%;
+  right: 0%;
+  height: 10%;
+  width: 20%;
+  top: 1%;
+  position:absolute;
+  z-index: 5;
+  overflow: auto;
+  background-color:#A8A8A8;
+  box-shadow: 10px 10px 10px #474747;
+  border-radius: 10px;
+}
+
+#locatorTools{
+  padding:0.4%;
+  left: 6%;
+  height: 12%;
+  width: 20%;
+  top: 4%;
+  position:absolute;
+  z-index: 5;
+  overflow: auto;
+  background-color:#A8A8A8;
+  box-shadow: 10px 10px 10px #474747;
+  border-radius: 10px;
+}
+#directionsPanel{
+  height: 40%;
+  overflow:auto;
+  border-radius: 10px;
+  padding:0.4%;
+  right: 0%;
+  width:20%;
+  position:absolute;
+  top:58.4%;
+  z-index: 5;
+  background-color:#A8A8A8;
+  box-shadow: 10px 10px 10px #474747;
+}
+#distanceCalculator{
+  border-radius: 10px;
+  padding:0.4%;
+  right: 0%;
+  height: 40%;
+  width: 20%;
+  top: 14%;
+  position:absolute;
+  z-index: 5;
+  overflow: auto;
+  background-color:#A8A8A8;
+  box-shadow: 10px 10px 10px #474747;
+
+}
+#userAddress{
+  width: 80%;
+  postion: absolute;
+}
